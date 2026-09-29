@@ -1,0 +1,144 @@
+/* Body */
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f8f4;
+margin: 0;
+color: #333;
+}
+
+/* Header */
+header {
+background-color: #27834f;
+color: white;
+text-align: center;
+padding: 25px;
+}
+
+header h1 {
+margin: 0;
+}
+
+/* Navigation */
+nav {
+background-color: #e0eee3;
+padding: 15px;
+text-align: center;
+}
+
+nav a {
+text-decoration: none;
+color: #245b38;
+margin: 12px;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #159447;
+text-decoration: underline;
+}
+
+/* Main content */
+section {
+background-color: white;
+margin: 25px auto;
+padding: 25px;
+width: 85%;
+border-radius: 8px;
+}
+
+/* Headings */
+h2 {
+color: #27834f;
+border-bottom: 2px solid #d8e9dc;
+padding-bottom: 8px;
+}
+
+/* Paragraphs */
+p {
+line-height: 1.6;
+}
+
+/* Images */
+img {
+width: 250px;
+height: 160px;
+object-fit: cover;
+border-radius: 8px;
+margin: 10px;
+}
+
+img:hover {
+transform: scale(1.03);
+}
+
+/* Lists */
+li {
+margin: 10px 0;
+}
+
+/* Food and Exercise */
+.item {
+display: inline-block;
+background-color: #edf6ee;
+padding: 10px;
+margin: 10px;
+border-radius: 8px;
+text-align: center;
+vertical-align: top;
+width: 260px;
+}
+
+/* Contact Form */
+input, textarea {
+padding: 10px;
+width: 90%;
+margin: 8px 0;
+border: 1px solid #aaa;
+border-radius: 5px;
+}
+
+/* Button */
+button {
+background-color: #27834f;
+color: white;
+padding: 10px 25px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #195d35;
+}
+
+/* Footer */
+footer {
+background-color: #27834f;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 30px;
+}
+
+/* Mobile Screen */
+@media (max-width: 600px) {
+section {
+width: 88%;
+}
+
+
+nav a {
+    display: inline-block;
+    margin: 8px;
+}
+
+.item {
+    width: 85%;
+}
+
+img {
+    max-width: 85%;
+}
+
+
+}
